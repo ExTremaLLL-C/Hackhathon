@@ -1,0 +1,15 @@
+<%-include('partials/header.ejs')%>
+
+ <% doctorAll.forEach(doctorAll =>{%>
+<div>
+    <br>
+    <hr>
+    <h1><%=doctorAll.Image%></h1>
+    <h1><%=doctorAll.Mail%></h1>  
+    <h1><%=doctorAll.About%></h1>
+    <a href="/medic/doctors/<%=doctorAll.id%>">sdfsdf</a>
+    <br>
+    
+</div>
+ <% })%>
+<%-include('partials/foother.ejs')%>

@@ -1,0 +1,15 @@
+<%-include('partials/header.ejs')%>
+<main>
+    <% newN.forEach(newN =>{%>
+        <div>
+            <br>
+            <hr>
+            <h1><%=newN.Image%></h1>
+            <h1><%=newN.username%></h1>  
+            <h1><%=newN.about%></h1>
+            <br>
+            
+        </div>
+         <% })%>
+</main>
+<%-include('partials/foother.ejs')%>

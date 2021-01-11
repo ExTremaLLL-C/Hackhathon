@@ -1,0 +1,18 @@
+<%-include('partials/header.ejs')%>
+<link rel="stylesheet" href="style.css">
+<div class="container">
+    <div class="register">
+        <form action="/medic/createNews" method="post">
+              <h1> News</h1><br>
+
+              <input type="text" placeholder="სურატის ლინკი" name="img" id="name" required><br>
+
+              <input type="text" placeholder="სახელი" name="name" id="name" required><br>
+          
+              <textarea required placeholder="ინფორმაცია ექიმზე" name="textA" id="" cols="30" rows="30"></textarea><br><br>
+          
+              <button type="submit" class="registerbtn">რეგისტრაცია</button>
+        </form>
+    </div>
+</div>
+<%-include('partials/foother.ejs')%>

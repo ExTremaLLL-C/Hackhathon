@@ -1,0 +1,20 @@
+<%-include('partials/header.ejs')%>
+<link rel="stylesheet" href="style.css">
+<div class="container">
+    <div class="register">
+        <form action="/medic/ClinicRegistration" method="post">
+              <h1> ექიმის რეგისტრაცია</h1><br>
+
+              <input type="text" placeholder="სურატის ლინკი" name="img" id="name" required><br>
+
+              <input type="text" placeholder="სახელი" name="name" id="name" required><br>
+
+              <input type="email" placeholder="მაილი" name="email" id="email" required><br><br><br>
+          
+              <textarea required placeholder="ინფორმაცია კლინიკაზე" name="textA" id="" cols="30" rows="10"></textarea><br><br>
+          
+              <button type="submit" class="registerbtn">რეგისტრაცია</button>
+        </form>
+    </div>
+</div>
+<%-include('partials/foother.ejs')%>
